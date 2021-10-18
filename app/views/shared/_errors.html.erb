@@ -1,0 +1,15 @@
+<% if obj.errors.any? %>
+
+
+  <div class="ui form">
+    <div class="ui message">
+      <div class="header">The folowing errors prevented the <%= obj.class.name.downcase %> from beeing saved</div>
+      <ul class="list">
+        <% obj.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+<% end %>

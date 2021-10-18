@@ -30,8 +30,10 @@
 
     <div class="middle aligned column">
       <div class="ui big button orange">
-        <i class="signup icon "></i>
-        Sign Up
+        <%= link_to(signup_path, class: 'link-to-text-color') do %>
+          <i class="signup icon"></i>
+          Sign Up
+        <% end %>
       </div>
     </div>
 
