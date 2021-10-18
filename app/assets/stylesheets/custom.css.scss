@@ -3,3 +3,18 @@
 .chatbox {
   height: 450px;
 }
+
+.login_button {
+  width: 80px;
+}
+
+#messages {
+  height: 15em;
+  overflow: auto;
+}
+
+.input {
+  button {
+    display: none;
+  }
+}
